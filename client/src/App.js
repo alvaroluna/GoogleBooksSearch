@@ -11,13 +11,13 @@ import Saved from "./pages/Saved";
 import "./App.css";
 
 class App extends Component {
- 
+
   render() {
     return (
       <Router>
         <div>
           <NavBar />
-          <Header />
+          {/* <Header /> */}
           <Wrapper>
             <Route exact path="/" component={Search} />
             <Route exact path="/search" component={Search} />
