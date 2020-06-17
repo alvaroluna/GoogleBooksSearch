@@ -2,7 +2,9 @@
     height: 20vh;
     
     background-image: url(ReadingRainbowLogo.png);
+    background-color: rbg(102, 204, 255);
     background-repeat: no-repeat;
+    background-position: center;
     /* background-size: width height */
     background-size: auto 100%;    
 }
